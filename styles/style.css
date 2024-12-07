@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --verde: green;
+    --blanco: white;
+    --negro: black;
+}
+
+h1{
+    color: var(--verde);
+}
+
+p{
+    margin: 1vh;
+}
+
+nav{
+    display: flex;
+    text-align:center;
+    background-color: var(--verde);
+    height: 10vh;
+}
+
+main{
+    height: 67.2vh;
+}
+
+section{
+    margin: 3vh;
+}
+
+a{
+    color: var(--blanco);
+    margin: 10px;
+    margin-top: 3.5vh;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    background-color: var(--negro);
+    color: var(--blanco);
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
